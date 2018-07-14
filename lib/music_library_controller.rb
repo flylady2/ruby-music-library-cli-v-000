@@ -24,7 +24,7 @@ class MusicLibraryController
       if counter = 4
         break
     end
-    puts "What would you like to do?"
+
     user_input = gets.strip
     case user_input
     when "list songs"
