@@ -31,8 +31,6 @@ class MusicLibraryController
       list_songs_by_genre
     when "play song"
       play_song
-    when "exit"
-      break
     end
     while user_input != "exit"
       puts "What would you like to do?"
