@@ -17,16 +17,17 @@ class MusicLibraryController
     puts "To list all of the songs of a particular genre, enter 'list genre'."
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
+    user_input = gets.strip
     counter = 0
     loop do
       counter += 1
       puts "What would you like to do?"
-      if counter == 4
+      if counter == 4 || user_input == "exit"
         break
       end
     end
 
-    user_input = gets.strip
+
     case user_input
     when "list songs"
       list_songs
