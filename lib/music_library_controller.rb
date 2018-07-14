@@ -24,6 +24,8 @@ class MusicLibraryController
       puts "What would you like to do?"
       if user_input == "exit"
         break
+      elsif counter == 4
+        break
       end
     end
 
