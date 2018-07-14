@@ -22,7 +22,7 @@ class MusicLibraryController
     loop do
       counter += 1
       puts "What would you like to do?"
-      if counter == 4 || user_input == "exit"
+      if user_input == "exit"
         break
       end
     end
