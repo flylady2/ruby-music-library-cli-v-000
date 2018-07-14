@@ -8,7 +8,6 @@ class MusicLibraryController
   end
 
   def call
-
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
     puts "To list all of the artists in your library, enter 'list artists'."
@@ -24,11 +23,8 @@ class MusicLibraryController
       puts "What would you like to do?"
       if user_input == "exit"
         break
-      
       end
     end
-
-
     case user_input
     when "list songs"
       list_songs
@@ -43,10 +39,6 @@ class MusicLibraryController
     when "play song"
       play_song
     end
-
-
-
-
   end
 
   def list_songs
