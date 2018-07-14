@@ -20,8 +20,9 @@ class MusicLibraryController
     counter = 0
     while user_input != "exit"
       loop do
-    
+
       puts "What would you like to do?"
+    end
 
     end
     case user_input
