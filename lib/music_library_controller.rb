@@ -21,7 +21,7 @@ class MusicLibraryController
     loop do
       counter += 1
       puts "What would you like to do?"
-      if counter = 4
+      if counter == 4
         break
     end
 
