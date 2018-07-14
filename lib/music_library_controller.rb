@@ -34,9 +34,9 @@ class MusicLibraryController
     when "exit"
       break
     end
-    #while user_input != "exit"
-      #puts "What would you like to do?"
-    #end
+    while user_input != "exit"
+      puts "What would you like to do?"
+    end
 
   end
 
