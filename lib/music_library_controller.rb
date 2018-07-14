@@ -23,6 +23,7 @@ class MusicLibraryController
       puts "What would you like to do?"
       if counter == 4
         break
+      end
     end
 
     user_input = gets.strip
